@@ -1,0 +1,46 @@
+.thv-container {
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 24px;
+    margin: 16px 0;
+}
+
+.thv-title {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+.thv-no-transactions {
+    color: #6b7280; /* gray-500 */
+    font-style: italic;
+}
+
+.thv-table-wrapper {
+    overflow-x: auto;
+    max-height: 400px;
+}
+
+.thv-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.thv-header-row {
+    background-color: #f3f4f6;
+}
+
+.thv-header-cell {
+    padding: 8px;
+    font-weight: 500;
+}
+
+.thv-cell {
+    padding: 8px;
+    border-top: 1px solid #e5e7eb;
+}
+
+.thv-cell-right {
+    text-align: right;
+}

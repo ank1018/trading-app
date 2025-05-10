@@ -1,0 +1,51 @@
+.cpv-container {
+    grid-template-columns: 1fr;
+    gap: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 50% !important;
+    margin: auto !important;
+}
+
+.cpv-title {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+.cpv-no-positions {
+    color: #6b7280;
+    font-style: italic;
+}
+
+.cpv-table-wrapper {
+    overflow-x: auto;
+    width: 100%;
+}
+
+.cpv-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.cpv-header-row {
+    background-color: #f3f4f6;
+}
+
+.cpv-header-cell {
+    padding: 8px 12px;
+    font-weight: 500;
+}
+
+.cpv-cell {
+    padding: 8px 12px;
+}
+
+.cpv-cell-right {
+    text-align: right;
+}
+
+.cpv-row {
+}

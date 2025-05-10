@@ -1,0 +1,75 @@
+.trade-form-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 16px;
+}
+
+.trade-form-title {
+    font-size: 24px;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+.trade-form {
+    background: #ffffff;
+    border-radius: 8px;
+    padding: 24px;
+}
+
+.trade-form-section-title {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+.trade-form-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0 15rem;
+}
+
+.trade-form-field {
+    display: flex;
+    flex-direction: column;
+}
+
+.trade-form-label {
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 4px;
+}
+
+.trade-form-input,
+.trade-form-select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.trade-form-input:focus,
+.trade-form-select:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+.trade-form-actions {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 24px;
+}
+
+.trade-form-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    color: #ffffff;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.trade-form-button:hover {
+    background-color: #0056b3;
+}
